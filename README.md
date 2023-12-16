@@ -1,0 +1,83 @@
+# Sales Store-Dashboard
+
+
+## Problem Statement
+
+The sales store analysis report aims to address the critical need for a comprehensive assessment of a retail operation. The primary challenges include optimizing sales performance, identifying  key factors influencing customer purchasing behavior and enhancing overall store efficiency. The report will delve into sales trend, customer engagement and operational processes to provide actionable insights for strategic decision making and sustainable business growth
+
+### Steps followed 
+
+- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
+- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+- Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on the entire dataset".
+- Step 4 : It was observed that in none of the columns errors & empty values were present .
+- Step 5 The status column and payment method column was transformed into proper cases since all text data type were in proper cases
+- Step 6 : A new column name called month column was added in order to be able to differentiate date from month
+- Step 7 :4 card visuals were used ; one representing the total sales made , the total discounted sales,total quantity ordered and the the number of states
+- Step 8 : Visual filters (Slicers) were added for two fields named "Status", & "Categoryl".
+- Step 9 :A bar chart was added to the report design representing the total sales by region   - Step 10 : A bar chart was also added to the report design area representing the total sales by gender
+- Step 11 :A donut chat was used to represent the proportion of total sales made by gender
+- Step 12:In order to get the sales made by the different age groups, the ages was categorized into groups using a bin size of 5 with minimum age of 18 and maximum age of 75
+- Step 13 :  A bar chat was used to represent the sales made for different months
+Step 14: A lone cgat was used to show the total and discounted sales by month              
+        #SNAPSHOT OF SALES STORE ANALYSIS DASHBOARD
+![Screenshot 2023-12-06 015634](https://github.com/omehj/project/assets/135540282/a450b010-f0d1-43be-bf93-53a20413ad2d)
+
+
+
+
+
+
+
+# Insights
+
+A single page report was created on Power BI Desktop
+Following inferences can be drawn from the dashboard;
+
+### [1] Total Sales Made = 3.65million
+
+   ### [2] Total discounted Amount = 20.06million
+  
+  ### [3] Total Quantity Ordered = 862000
+
+   ### [4]Total Sales By Region
+  
+ 1.1) The South Region made 90million sales
+ 1.2)The Mid West Region made 63million sales
+ 1.3) The West Region made 41million sales 
+1.4)The Norteast Region made 40million sales
+ 
+         Thus  maximum sales was made in the South Region.
+ 
+ ### Total Sales By Gender
+  2.1) 49.93 % 0f female  customers patronised the store with a total sales of 116.65million.
+ 
+ 2.2)  50.07% of malecustomers patronised the store with a total sales of 117million.
+ 
+         thus, the female gender patronised the store more than the male gender
+         
+### Total Sales By Age group
+
+3.1) Total Sales by by Age group 15 = 7million 
+3.2)'. Total Sales by by Age group 20 = 20million
+3.3) Total Sales by by Age group 35 = 24million
+3.4) Total Sales by by Age group 45 = 18million
+3.5) Total Sales by by Age group 60 = 22million
+3.6) Total Sales by by Age group 75 = 20million
+3.7) Total Sales by by Age group 75 = 4million
+Thus age group 35 patronised the sales store most
+
+###Total and discounted sales by month
+(4.1) The total sales made in the month of January with no discount = 7million
+4.2) The total sales made in the month of February with no discount = 4million
+(4.3) The total sales made in the month of March with 2million discount = 25million
+4.4) The total sales made in the month of April with 3million discountnt = 37million
+4.5) The total sales made in the month of June  with 2million discount = 25million
+4,6) The total sales made in the month of August with no discount = 21million
+4.7) The total sales made in the month ofSeptember with no discountnt = 12million
+4,8) The total sales made in the month of October with no discountnt = 5million
+4.9) The total sales made in the month of November with no discountnt = 5million
+5.0) The total sales made in the month ofDecember with 9million discountnt = 50million
+
+
+        thus, The month of December has the highest number of sales with the highest discounted amount
